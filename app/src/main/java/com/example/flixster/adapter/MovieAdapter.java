@@ -30,7 +30,7 @@ public class MovieAdapter  extends RecyclerView.Adapter<MovieAdapter.ViewHolder>
 
     @NonNull
     @Override
-    public ViewHolder onCreateViewHolder(@ NonNull ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         Log.d("MovieAdapter","onCreateViewHolder");
        View movieview =  LayoutInflater.from(context).inflate(R.layout.idem_movie, parent, false) ;
     return new ViewHolder(movieview); }
